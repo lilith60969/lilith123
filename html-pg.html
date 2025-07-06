@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+<body>
+    <h1>html</h1>
+
+    <h2>Introduction to html</h2>
+
+    <p>html stands for <a href="hypertext.html">hypertext</a> <a href="markup-language.html">markup language</a>  </p>
+    <p>html is the foundation of webpages, it is needed everywhere to display <a href="#click">content</a>.</p>
+
+    <hr>
+
+    <ul>
+        <li>html - content</li>
+        <li>css - visuual identity</li>
+        <li>javascript - interactivity</li>
+    </ul>
+
+    <p> the html tags wrap content and provides instructions to the browser on how to organise and display content.
+        ex= if we use "p" with angle brackets its a tag for paragraph. 
+    </p>
+
+    <h2>web development toolkit</h2>
+    <p>
+        <ol>
+            <li>text editor- where the text is written and editted like vs code</li>
+            <li>browser- where the code is rendered, run and tested like chrome</li>
+        </ol>
+    </p>
+
+    <p>
+        filetypes <br>
+        all digital assets have a filetype that indicates how the data is structured, encoded and stored. <br>
+        common filetypes are - 
+        <ol>
+            <li>images- jpeg/png</li>
+            <li>audio- mp3/wav</li>
+            <li>video- mp4/mov</li>
+            <li>document- pdf/txt/html</li>
+        </ol>
+    </p>
+
+    <h2><a href="images/img2.png">html boilerplate</a></h2>
+    <p>
+        the boilerplate or the html template provides the basic structure and essential elements needed for a webpage. <br>
+        <ol>
+            <li> (!DOCTYPE html)- flags browser that this is html5 file, this is not actually html element.</li>
+            <li>(html tag)- root element that wraps all other elements </li>
+            <li>(head tag)- contains key information like title that doesn't appear on the webpage.</li>
+            <li>(body tag)- contains all the visible content of the webpage.</li>
+        </ol>
+        boilerplate shortcut is ! and enter.
+    </p>
+
+    <h2>Nesting and Indenting</h2>
+    <ul>
+        <li>nesting- elements are placed inside one another in a hierarchical structure.</li>
+        <li>indenting- visually organises code to quickly identify the hierarchy of elements.</li>
+    </ul>
+
+    <h2 id="click">Html Text</h2>
+
+    <h3><a href="headings.html">Headings</a></h3>
+    <p>
+        the (h1to6) tag or the heading breaks up different section of a webpage, and are used to achieve a clear and logical structure.
+    </p>
+
+    <h3><a href="paragraphs.html">Paragraphs</a></h3>
+    <p>
+        the (p tag) groups together related ideas and provides detail of what is being discussed in heading. <br>
+        it could be single sentence or multi sentenced paragraph
+    </p>
+
+    <h3><a href="lists.html">lists</a></h3>
+    <p>list types
+        <ol>
+            <li>ordered list - numbered list </li>
+            <li>unordered list - bulleted list</li>
+        </ol>
+        a list under list is a nested list.
+    </p>
+
+    <h3>comments</h3>
+    <p>
+        notes that are not displayed in browser and is mainly for documentation or as a note to self. <br>
+        shortcut is cntrl+/
+    </p>
+
+    <h3>chrome dev tools</h3>
+    <p>
+        these tools are built into chrome browsers that allows developers to inspect debug and profile web apps. 
+    </p>
+
+    <h2>Hyperlinks and attributes</h2>
+    
+    <p>hyperlinks are clickable text, images or element that navigates users to another webpage. <br>
+    internal hyperlinks would navigate users to other webpages on the same domain while external hyperlinks navigates users to another domain.</p>
+    <p>anchor tag is to create hyperlinks in html. html attributes are within the opening anchor tag (a href) provides additional information about the html element. </p>
+    <p> <a href="hyperlink-list.html">hyperlinks in lists, simply add anchor tag within li tag </a></p>
+
+    <h2>The ID Attribute</h2>
+    <p>It provides a unique identifier for an element widely used in CSS and Javascript as well.</p>
+    <p>Anchor linking -</p>
+    <p>hyperlinks can be directly link to elements with an ID attribute, we reference that element inside na hyperlink by using a hashtag</p>
+
+    <h3>Self Closing Tags</h3>
+    <p>regular html tag requires an opening and closing tag to wrap content, the self closing tag otherwise known as void element with no content to wrap. ex= (hr) (br) (img) (meta) etc.</p>
+    <p>hr tag is horizontal rule this creats a visible line between the content and br tag is for a line break it creates a break betweeen contents.</p>
+
+    <h2> <a href="image-formats.html">the 2 type of image formats:</a></h2>
+    <h2>Images</h2>
+    <p>they add visual identity essential for brandind and can aid in illustrating concepts easily.
+       the image tag (img src= ""alt="") consists of a source attribute and alternative text attribute <br>
+       the source attribute is the url that points to the actual image file, while the alternative text attribute is used by browsers for two main reasons - 
+       <ol>
+        <li>for screen readers </li>
+        <li>for SEO (search engine optimisation )</li>
+       </ol><br>
+       the image source could be absolute or relative, we can also change the height and width by adding respective attribute after (alt ""),
+       adding only one of these automatically follows aspect ratio. <br>
+       <img src="images/img 1.jpg" alt="nails hammered into a dark wavy pattern" width="300 px"> <br>
+       ex = nails hammered into a dark wavy pattern <br>
+       image credit = <a href="https://unsplash.com/@luca_severin">Luca Severin via unsplash</a>
+    </p>
+
+    <h2>Scalable Vector Graphics</h2>
+    <p>It is made by mathematical equations and instructions of rendering shapes, paths and colours <br>
+    they are resolution independent and are commonly used for smaller images like logos and icons. <br>
+    <img src="images/svg1.svg" alt="screen" width="200px"><br> 
+    SVG 1 <br>
+    <img src="images/svg2.svg" alt="typing" width="200 px"> <br> SVG 2
+    </p>
+
+    <h3>clickable SVG icon</h3>
+    <ul>
+        <li><a href="https://undraw.co/illustrations"> <img src="images/svg3.svg" alt="progress" width="50px"></a></li>
+        <li><a href="https://ionic.io/ionicons" > <img src="images/svg4.svg" alt="logo" width="20px"></a></li>
+        <li><a href="https://www.google.com/"><img src="images/svg5.svg" alt="search" width="20px"></a></li>
+    </ul>
+    <p>
+        logos and icons from <a href="https://undraw.co/illustrations">undraw</a> and <a href="https://ionic.io/ionicons">ionicons</a>
+    </p>
+<hr>
+    <h2> <a href="form.html">html forms</a></h2>
+    <p>forms collect and submit user provided data and send it to a web server for processsing. <br>
+    creating new accounts on any website is an example of form. <br>
+    form acts as a container for various form elements that allows users to input different types of data.
+    </p>
+    <p>the form tag (form action"" method"") consists of action attribute and a method attribute. <br>
+    the action attribute specifies the location on the server where the data will be sent for processing. <br>
+    the method attribute determines the http method used for handling the form data.</p>
+    <p>
+        there are 3 main html elements that allows users to enter or select data in a form. 
+        <ol>
+            <li>form inputs</li>
+            <li>text area</li>
+            <li>dropdowns</li>
+        </ol>
+    </p>
+
+    <h3>form inputs </h3>
+    <p>Input types- some are 
+        <ul>
+            <li>textual (text/password/email/date/telephone)</li>
+            <li>binary (checkbox/radio)</li>
+            <li>file input (files)</li>
+            <li>miscellaneous (range slider/ colour picker)</li>
+        </ul>
+
+       the input tag is self closing tag (input type = "" name = "" placeholder = "") <br>
+       the type attribute specifies the type of input, and is always required. ex: type="email", type="text", type="password", type="date". <br>
+       the name attribute assigns identifier for data collection and is required when sending data to a server. ex: name="title", name="email", name="name". <br>
+       the other attribute like placeholder are optional to use. ex: placeholder="enter title", placeholder="required", placeholder="disabled" </p>
+
+
+    <h3>form labels</h3>
+    <p>
+        labels improve accessibility and usabilty of forms. <br>
+        the label tag <br>
+        <h4>[(label for= "main-title")title(/label)] <br>
+        [(input id= "main-title" type="text"name= "title" placeholder= "enter title")]</h4>
+         <br>
+        the for and id attribute connects label to input. 
+    </p>
+
+    <h3>textarea</h3>
+    <p>
+        this element is used for multiline text input used for coments and longer messages. <br>
+        the textarea tag: <br>
+        <h4>[(textarea id= "the-entry" name="entry" rows="3" cols="30")(/textarea)] </h4><br>    
+        rows and cols sets the visible dimensions in text character, the row value is the no. of line text will fit on and col is the no. of character the text will be displayed horizontally. <br>
+    </p>
+   
+    <h3><a href="dropdown.html"> dropdowns</a></h3>
+    <p>allows users to choose from predefined options. <br>
+        the select and option Tags: <br>
+       <h4>
+        [(label for="the-category") category (/label)] <br>
+        [select id="the-category" name="category"] <br>
+           [(option value="abc") Abc (/option)] <br>
+           [(option value="pqr") Pqr (/option)] <br>
+           (/select) <br>
+       </h4> 
+    each option tag has a value tag which explicitly sets the value that the user chooses from the dropdown menu.   
+    </p>
+
+    <h3>buttons</h3>
+    <p>
+        used to trigger actions like submit a form. <br>
+        hyperlinks and buttons can appear visually the same but they serve differsnt purposes.
+    </p>
+    
+    <h4><a href="form.html">an example of form</a></h4>
+
+    <h3>form submission</h3>
+    <p>
+        forms need to know where to and how to send data.
+    </p>
+
+    <h3>form validation</h3>
+    <p>
+        the process of checking data to enure it meets the expected criteria. <br>
+        client side validation <br>
+        they are of two types:
+        <ol>
+            <li>built in validation</li>
+            <li>custom validation</li>
+        </ol>
+    </p>
+
+    <h2>checkboxes and radio button</h2>
+    <p>we know differnt input types 
+        <ol>
+            <li>textual</li>
+            <li>binary</li>
+            <li>file input</li>
+            <li>miscellaneous</li>
+        </ol>
+    </p>
+    
+    <h3>checkbox</h3>
+    <p>it allows users to select one or more options from a predefined list, here the name values are different</p>
+    <h3>radio button</h3>
+    <p>it allows users to select exactly one option from a predefined list, the name value is same so we add value attribute to distinguish</p>
+
+</body>
+</html>

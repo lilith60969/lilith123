@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal</title>
+</head>
+<body>
+    <form action="/api/v1" method="post">
+        <label for="main-title"> Title</label> <br>
+        <input id="main-title" type="text" name="Title" placeholder="required" minlength="3"> <br>
+        <label for="the-age"> Age</label> <br>
+        <input type="number" name="age" id="the-age" placeholder="enter age" min="18"> <br>
+        <label for="the-entry"> Entry </label><br>
+        <textarea name="Entry" id="the-entry" rows="5" cols="30" ></textarea> <br>
+        <label for="the-category">Category</label> <br>
+        <select name="Category" id="the-category">
+            <option value="self"> Self</option>
+            <option value="not for self"> not for self</option>
+            <option value="meow">meow</option>
+        </select> <br>
+
+        <p>some adjectives</p>
+
+        <input type="checkbox" name="ambiguous" id="some-adjectives">
+        <label for="some-adjectives">ambiguous</label>
+        <input type="checkbox" name="delicious" id="adjective2">
+        <label for="adjective2">delicious</label>
+        <input type="checkbox" name="quaint" id="adjective3">
+        <label for="adjective3">quaint</label>
+        <input type="checkbox" name="spurious" id="adjective4">
+        <label for="adjective4">spurious</label>
+        <input type="checkbox" name="learned" id="adjective5">
+        <label for="adjective5">learned</label>
+        <input type="checkbox" name="awful" id="adjective6">
+        <label for="adjective6">awful</label>
+        <input type="checkbox" name="workable" id="adjective7">
+        <label for="adjective7">workable</label>
+        <input type="checkbox" name="unwieldy" id="adjective8">
+        <label for="adjective8">unwieldy</label> <br>
+
+        <p>3 word quotes</p> 
+
+        <input type="radio" id="quote1" name="3 word quotes" value="a">
+        <label for="quote1">"Act without expectation"</label>
+        <input type="radio" id="quote2" name="3 word quotes" value="b">
+        <label for="quote2">"Connect with nature"</label>
+        <input type="radio" id="quote3" name="3 word quotes" value="c">
+        <label for="quote3">"Who are you?"</label>
+        <input type="radio" id="quote4" name="3 word quotes" value="d">
+        <label for="quote4">"Never give up"</label>
+        <input type="radio" id="quote5" name="3 word quotes" value="e">
+        <label for="quote5">"Get enough sleep"</label>
+        <input type="radio" id="quote6" name="3 word quotes" value="f">
+        <label for="quote6">"Always be yourself"</label>
+        <input type="radio" id="quote7" name="3 word quotes" value="g">
+        <label for="quote7">"Keep morale high"</label>
+        <input type="radio" id="quote8" name="3 word quotes" value="h">
+        <label for="quote8">"Communicate with clarity"</label> <br>
+        <button type="submit"> Submit </button>
+
+    </form>
+</body>
+</html>
